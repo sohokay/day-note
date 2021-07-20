@@ -1,1 +1,1 @@
-# day-note
+# Hello VuePress!
