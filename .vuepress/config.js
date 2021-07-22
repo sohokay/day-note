@@ -1,5 +1,7 @@
 module.exports = {
   themeConfig: {
+    title: '标题',
+    description: '随便说点什么',
     displayAllHeaders: true, // 默认值：false
     lastUpdated: '最后更新于', // string | boolean
     repo: 'https://github.com/sohokay/day-note',
@@ -18,17 +20,11 @@ module.exports = {
 
     nav: [ // 导航栏
       {text: 'Home', link: '/'},
-      {text: 'Guide', link: '/guide/'},
       {text: 'Git', link: '/git/'},
       {text: 'Note', link: '/note/'},
-      {
-        text: 'Language', link: '/guide/', items: [
-          {text: 'Chinese', link: '/language/chinese/'},
-          {text: 'Japanese', link: '/language/japanese/'}
-        ]
-      },
+
 
     ],
-    sidebar: 'auto'
+    sidebar: 'auto',
   }
 }
